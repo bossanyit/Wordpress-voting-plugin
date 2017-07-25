@@ -1,0 +1,233 @@
+#ouibounce-modal {
+  font-family: 'Open Sans', sans-serif;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:999;
+}
+#ouibounce-modal .underlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  cursor: pointer;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+#ouibounce-modal .modal {
+  width: 620px;
+  height: 430px;
+  background-color: #fff7e8;
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 4px;
+  -webkit-animation: popin 0.3s;
+  animation: popin 0.3s;
+  background: url("../img/andio_hatter.jpg") no-repeat ;
+  background-size:   cover;  
+}
+#ouibounce-modal .modal-title {
+  font-size: 18px;
+ /* background-color: #d87c53; */
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
+}
+#ouibounce-modal h3 {
+  color: #fff;
+  font-size: 1em;
+  margin: 0.2em;
+
+  font-weight: 500;
+}
+#ouibounce-modal .modal-body {
+  /* padding: 12px 15px; */
+  font-size: 0.9em;
+}
+#ouibounce-modal p {
+  color: #344a5f;
+}
+#ouibounce-modal form {
+  text-align: right;
+  margin-top: 8px;
+}
+.closebutton {
+	z-index: 9999 !important;
+	position: relative;
+	top: -5px;
+	left: 357px;
+	background: url("../img/ico-close.png") no-repeat scroll left top transparent;
+	cursor: pointer;
+	color: transparent;
+	width: 26px;
+	height: 27px;
+	padding: 10px;
+}
+
+.form_table_label{
+    font-size: 0.9em;
+    -webkit-font-smoothing: antialiased;
+    padding: 5px !important;
+}
+.form_table_mandatory_field {
+    font-size: 0.9em;
+    -webkit-font-smoothing: antialiased;
+    padding: 5px;
+    color: red;
+}
+#ouibounce-modal form input[type=text] {
+  padding: 5px;
+  font-size: 0.9em;
+  width: 180px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  -webkit-font-smoothing: antialiased;
+}
+#ouibounce-modal form input[type=submit] {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 76px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #bf4230;
+  border: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+#ouibounce-modal form input[type=submit]:hover {
+    background-color: #c20000;
+    
+}
+#ouibounce-modal form p {
+  text-align: left;
+  margin-left: 75px;
+  opacity: 0.8;
+  margin-top: 1px;
+  padding-top: 1px;
+  font-size: 0.9em;
+}
+#ouibounce-modal .modal-footer {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+#ouibounce-modal .modal-footer p {
+  text-transform: capitalize;
+  cursor: pointer;
+  display: inline;
+  border-bottom: 1px solid #344a5f;
+}
+#ouibounce-modal .close-reveal-modal {
+        font-size: 22px;
+        opacity: 0.7;
+        line-height: .5;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        color: #aaa;
+        text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+        font-weight: bold;
+        cursor: pointer;
+} 
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes popin {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-ms-keyframes popin {
+  0% {
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes popin {
+  0% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}

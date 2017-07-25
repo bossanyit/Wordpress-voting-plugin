@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontend Uploader v0.5.9.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/frontend-uploader\n"
+"POT-Creation-Date: 2014-09-17 21:43+0100\n"
+"PO-Revision-Date: 2014-09-17 21:44+0100\n"
+"Last-Translator: Bossányi Tibor <info@serve-x.com>\n"
+"Language-Team: Joshua Trees <josh@pxlart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ default
+#: andio-picture-vote.php:26
+msgctxt "p-vote"
+msgid "Picture Vote Categories"
+msgstr "Kategoriák"
+
+#: andio-picture-vote.php:27
+msgctxt "p-vote"
+msgid "Picture Vote Category"
+msgstr ""
+
+#: andio-picture-vote.php:28
+msgid "Search Picture Vote Categories"
+msgstr ""
+
+# @ frontend-uploader
+#: andio-picture-vote.php:29
+msgid "All Picture Vote Categories"
+msgstr "Összes kategória"
+
+#: andio-picture-vote.php:30
+msgid "Parent Picture Vote Category"
+msgstr ""
+
+#: andio-picture-vote.php:31
+msgid "Parent Picture Vote Category:"
+msgstr ""
+
+#: andio-picture-vote.php:32
+msgid "Edit Picture Vote Category"
+msgstr ""
+
+#: andio-picture-vote.php:33
+msgid "Update Picture Vote Category"
+msgstr ""
+
+#: andio-picture-vote.php:34
+msgid "Add New Picture Vote Category"
+msgstr ""
+
+#: andio-picture-vote.php:35
+msgid "New Picture Vote Category Name"
+msgstr ""
+
+#: andio-picture-vote.php:42
+msgid "PVOTEs"
+msgstr ""
+
+#: andio-picture-vote.php:43
+msgid "PVOTE"
+msgstr ""
+
+#: andio-picture-vote.php:44
+msgid "Edit PVOTE"
+msgstr ""
+
+#: andio-picture-vote.php:45
+msgid "Add PVOTE"
+msgstr ""
+
+#: andio-picture-vote.php:221
+msgid "Vote up: "
+msgstr "Szavazok rá"
+
+#: andio-picture-vote.php:225
+msgid "Vote down: "
+msgstr "Nem tetszik"
+
+#: andio-picture-vote.php:232
+msgid "Uploader: "
+msgstr "Beküldte:"
+
+#: andio-picture-vote.php:235
+msgid "Andio receipt contest: "
+msgstr "Andió receptverseny"
